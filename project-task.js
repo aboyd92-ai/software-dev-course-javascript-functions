@@ -72,3 +72,31 @@ for (let i = 0; i < names.length; i++) {
 */
 
 // ✅ Your refactored code goes below this line!
+
+//Code Refractor #1
+    function welcome(name){
+        console.log("Welcome,"+ name + "!");
+    }
+welcome("Alice");
+welcome("Bob");
+welcome("Charlie");
+
+//Code Refractor #2
+const addNumbers=function(num1,num2){
+    return num1 + num2;
+}
+console.log(addNumbers(5,10));
+
+//Code Refractor #3
+const multiplyNumbers=function(num1,num2){
+    return num1 * num2;
+}
+console.log(multiplyNumbers(5,10));
+
+//Code Refractor #4
+function printArray(array){
+    for(let i= 0;i<array.length;i++){
+        console.log(array[i]);
+    }
+}
+printArray(["Alice", "Bob", "Charlie"]);
